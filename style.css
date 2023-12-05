@@ -41,8 +41,7 @@ body {
   text-decoration: none;
 }
   .how-to-participate {
-    margin-top: -250px;
-    margin-bottom: 20px;
+    margin-top: -220px;
   }
 
   .how-to-participate h2 {
@@ -54,6 +53,7 @@ body {
     line-height: normal;
     text-transform: uppercase;
     text-align: center;
+    margin-bottom: 80px;
   }
 
   .step {
