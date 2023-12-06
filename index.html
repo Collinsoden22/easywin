@@ -9,15 +9,23 @@
 <body>
 
   <div class="container">
+    <section class="logos">
+      <img src="back-btn.png" alt="EasyWin Logo" class="img-fluid" onclick="window.history.back()">
+      <img src="logos-combined.png" alt="EasyWin & Opay Logo" class="img-fluid">
+    </section>
+    <section class="deposit">
+      <h2>Daily Deposit</h2>
+      <p>Win amazing prizes</p>
+    </section>
     <section class="prizes">
-      <img src="page.svg" alt="Prizes Image" class="img-fluid rounded animated" onclick="window.location.pathname('www.easywin.ng')">
+      <img src="prize.png" alt="Prizes Image" class="img-fluid rounded animated" onclick="window.location.pathname('www.easywin.ng')">
     </section>
     <section class="how-to-participate">
       <h2>How to Participate</h2>
-      <h3>Step 1 - Register with Easywin</h3>
+      <h3>Step 1: <span>Register with Easywin</span></h3>
       <div class="step">
         <p>Register to claim amazing prizes.</p>
-        <form class="signup-form" action="" method="post">
+        <form class="signup-form" action="https://easywin.ng/Register" method="post">
           <label for="username">User Name:</label>
           <input type="text" id="username" name="username" required>
           <label for="password">Password:</label>
@@ -25,14 +33,16 @@
           <button type="submit">Sign Up</button>
         </form>
       </div>
-      <h3>Step 2 - Deposit with Opay App</h3>
+      <h3>Step 2: <span>Deposit with Opay App</span></h3>
       <div class="step">
         <p>Deposit and get 1 Lucky draw per day</p>
-        <a class="signup-form" href="https://easywin.ng" target="_blank">
+        <a class="signup-form" href="https://easywin.ng/Login" target="_blank">
             <button type="button">Deposit</button>
         </a>
         </div>
-        <h3>Step 3 - Draw and win</h3>
+        <h3>
+          Step 3: <span> Draw and win </span>
+        </h3>
         <div class="step">
             <p>Visit Easywin.ng and draw with your chances to win amazing prizes such as iPhone15, techno mobile phones, cash prizes and more</p>
             <a class="signup-form" href="https://easywin.ng" target="_blank">
@@ -62,6 +72,18 @@
             <td>2</td>
             <td>Winner2</td>
             <td>Prize 2</td>
+            <td>2023-01-02</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Winner3</td>
+            <td>Prize 3</td>
+            <td>2023-01-02</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Winner4</td>
+            <td>Prize 4</td>
             <td>2023-01-02</td>
           </tr>
           <!-- Add more rows as needed -->
