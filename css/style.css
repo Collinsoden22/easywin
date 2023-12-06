@@ -51,7 +51,7 @@ body {
     width: 100%;
     position: relative;
     margin: 0px 0px; /* Center the image */
-    animation: bounce 1s infinite alternate;
+    animation: bounce 1s 1 alternate;
 }
   .how-to-participate {
     margin-top: -130px;
