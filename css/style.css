@@ -226,7 +226,7 @@ tr td {
       padding: 20px;
       background: linear-gradient(180deg, #08402c 0%, #393939 100%);
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      z-index: 1;
+      z-index: 3;
       width: 80%;
     }
 
@@ -247,9 +247,10 @@ tr td {
       position: fixed;
       top: 50%;
       left: 50%;
+      width: 80%;
       transform: translate(-50%, -50%);
       padding: 20px;
       background: linear-gradient(180deg, #08402c 0%, #393939 100%);
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      z-index: 1;
+      z-index: 3;
     }
