@@ -46,9 +46,17 @@
         </h3>
         <div class="step">
             <p>Visit Easywin.ng and draw with your chances to win amazing prizes such as iPhone15, techno mobile phones, cash prizes and more</p>
-            <a class="signup-form" href="https://easywin.ng" target="_blank">
-                <button type="button">Draw and win</button>
-            </a>
+            <div class="signup-form" href="https://easywin.ng" target="_blank">
+                <button type="button" onclick="openModal()">Draw and win</button>
+            </div>
+
+            <!-- The Modal -->
+            <div id="myModal" class="signup-form">
+              <p>
+                This is the modal content. Place the turn table here and check if the user is logged in from the js function isLoggedIn()
+              </p>
+              <button onclick="closeModal()">Close Modal</button>
+            </div>
         </div>
     </section>
     <section class="winners">
@@ -98,6 +106,6 @@
 </div>
 </div>
 
-  <script src="main.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
