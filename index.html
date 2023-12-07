@@ -31,7 +31,7 @@
           <input type="text" id="username" name="username" required>
           <label for="password">Password</label>
           <input type="password" id="password" name="password" required>
-          <button type="submit">Sign Up</button>
+          <button type="submit">Sign In</button>
         </form>
       </div>
       <h3>Step 2: <span>Deposit with Opay App</span></h3>
@@ -51,10 +51,18 @@
             </div>
 
             <!-- The Modal -->
-            <div id="myModal" class="signup-form">
+            <div id="myModal">
               <p>
                 This is the modal content. Place the turn table here and check if the user is logged in from the js function isLoggedIn()
               </p>
+              <button onclick="closeModal()">Close Modal</button>
+            </div>
+            <!-- The Overlay -->
+            <div id="overlay"></div>
+
+            <!-- Login Message -->
+            <div id="loginMessage">
+              <p>Your must be logged in to participate in this lucky draw.</p>
               <button onclick="closeModal()">Close Modal</button>
             </div>
         </div>

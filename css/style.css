@@ -194,7 +194,7 @@ tr td {
     padding: 12px 0px;
     align-items: center;
   }
-  .signup-form button {
+  .signup-form button, #myModal button, #loginMessage button {
     background-color: #11AC47;
     text-decoration: none;
     color: #fff;
@@ -249,7 +249,7 @@ tr td {
       left: 50%;
       transform: translate(-50%, -50%);
       padding: 20px;
-      background-color: #fff;
+      background: linear-gradient(180deg, #08402c 0%, #393939 100%);
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       z-index: 1;
     }
